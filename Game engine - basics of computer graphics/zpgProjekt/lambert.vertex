@@ -1,0 +1,17 @@
+#version 400
+layout(location =0) in vec3 position;
+layout(location=1) in vec3 normal;
+layout (location = 2) in vec2 aTex;
+out vec4 ex_worldPosition;
+out vec4 ex_worldNormal;
+
+uniform mat4 modelMatrix;
+uniform mat4 cameraMatrix;
+out vec2 uv;
+
+void main(void){
+	gl_Position = cameraMatrix * modelMatrix * vec4(position,1.0);
+	ex_worldPosition = modelMatrix *vec4(position,1.0);
+	ex_worldNormal = transpose(inverse(modelMatrix)) * vec4(normal,1.0); 
+	uv = aTex;
+}

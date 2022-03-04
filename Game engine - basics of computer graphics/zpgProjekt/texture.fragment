@@ -1,0 +1,82 @@
+#version 400
+out vec4 frag_colour;
+uniform sampler2D textureUnitID;
+in vec2 uv;
+uniform vec3 colour;
+uniform int flash;
+in vec4 ex_worldPosition;
+in vec4 ex_worldNormal;
+
+out vec4 output_color;
+uniform vec3 cameraPos;
+uniform vec3 lightPosition[4];
+uniform vec4 lightColor[4];
+
+uniform vec3 lookingDirection;
+
+vec4 spotLight()
+{
+    float outerCone = 0.94f;
+    float innerCone = 0.97f;
+    vec3 lightVector = cameraPos - vec3(ex_worldPosition);
+    float dist = length(lightVector);
+    float point1 = 0.01;
+    float point2 = 0.1;
+    float intensity = 1/(point1 * dist * dist + point2 * dist +1.0);
+
+    float ambient = 0.00f;
+
+    vec3 normal = normalize(vec3(ex_worldNormal));
+    vec3 lightDirection = normalize(cameraPos - vec3(ex_worldPosition));
+    float dot_product = max(dot((normal), (lightDirection)),0.0);
+    vec4 diffuse = dot_product * vec4(1.0,1.0,1.0,1.0);
+
+
+    float angle = dot(normalize(vec3(ex_worldPosition) - cameraPos), normalize(lookingDirection));
+    float inten = clamp((angle-outerCone) / (innerCone - outerCone),0.0f,1.0f);
+
+    return (diffuse * inten * intensity);
+}
+
+void main () 
+{
+    if(colour != vec3(0.0))
+    {
+        output_color = vec4(colour,1.0);
+    }
+    else
+    {
+        for(int i =0; i < 4; i++)
+            {
+                vec3 lightVector = lightPosition[i] - vec3(ex_worldPosition);
+                
+                //vypocet intenzity svetla
+                float dist = length(lightVector);
+                float point1 = 0.01;
+                float point2 = 0.1;
+                float intensity = 1/(point1 * dist * dist + point2 * dist +1.0);
+
+                //vypocet difuzni slozky
+                vec3 normal = normalize(vec3(ex_worldNormal));
+                vec3 lightDirection = normalize( lightVector);
+                float dot_product = max(dot((normal), (lightDirection)), 0.0);
+                vec4 diffuse = dot_product * lightColor[i];
+
+                //vypocet ambientni slozky
+                vec4 ambient = (0.1/4)* vec4(1.0, 1.0, 1.0, 1.0);   
+
+                //vypocet specularni slozky
+                float specularLight = 0.20f;
+                vec3 viewDirection = normalize(cameraPos - vec3(ex_worldPosition));
+                vec3 reflectionDirection = reflect((-lightDirection), (normal));
+                float specAmount = pow(max(dot(viewDirection, (reflectionDirection)), 0.0f), 16);
+                float specular = specAmount * specularLight;
+        
+                vec4 frag_colour = (ambient+diffuse*intensity) + specular;
+                output_color += frag_colour;
+            }
+           
+             output_color += spotLight();
+             output_color *= texture(textureUnitID, uv);
+   }
+}

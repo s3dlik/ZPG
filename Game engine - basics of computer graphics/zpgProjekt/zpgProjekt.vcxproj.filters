@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{ef482b36-3e94-4056-b7a9-6edd347fb1c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{63ef979b-b29a-4d2f-bfa6-832d88458673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{bb31e694-19f3-41b5-863c-d0854f8a7429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{65c15136-8962-499c-86da-d6528b94e616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShaderManager">
+      <UniqueIdentifier>{d1e18da3-4030-444c-9f5e-b891dd193099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShaderManager">
+      <UniqueIdentifier>{71ebd75b-2946-41d1-8b82-764a29b22d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lights">
+      <UniqueIdentifier>{c0167692-682b-48a2-ab15-46f690ad9819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lights">
+      <UniqueIdentifier>{2c320a7d-ed3b-4697-8625-3a974ae92900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShaderManager\Managers">
+      <UniqueIdentifier>{98dec283-4204-4786-90f4-f6d930674942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShaderManager\Shaders">
+      <UniqueIdentifier>{bed55abb-6c42-4f48-8e5e-400446db3ff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShaderManager\Managers">
+      <UniqueIdentifier>{485a205f-7acf-4826-ae62-13f3fdb1311f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShaderManager\Shaders">
+      <UniqueIdentifier>{343ab984-b5bb-4fea-b176-c2a73f6ef127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Movement">
+      <UniqueIdentifier>{819a9de5-6f18-420c-98d9-d61ffb7007f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Movement">
+      <UniqueIdentifier>{a7e3034a-7837-4a64-afdf-84a3f652a730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Window">
+      <UniqueIdentifier>{0ce09f98-c724-44f1-874f-a6cedef09cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Window">
+      <UniqueIdentifier>{9f9b3830-57dd-417d-a7d9-1f99ed1df9d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{af780154-61ca-4974-8070-14c661e52cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes">
+      <UniqueIdentifier>{07a3e502-c18f-4548-bc31-edd9788358a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="zpgProjekt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelManager.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractModel.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelFactory.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Quad.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="assimpObjects.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="LightsManager.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="LightObject.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureShader.cpp">
+      <Filter>Source Files\ShaderManager\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="CubemapTexture.cpp">
+      <Filter>Source Files\ShaderManager\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantShader.cpp">
+      <Filter>Source Files\ShaderManager\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractShader.cpp">
+      <Filter>Source Files\ShaderManager\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderFactory.cpp">
+      <Filter>Source Files\ShaderManager\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>Source Files\ShaderManager\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="PhongShader.cpp">
+      <Filter>Source Files\ShaderManager\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\ShaderManager\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Bezier.cpp">
+      <Filter>Source Files\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Source Files\ShaderManager\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="LambertShader.cpp">
+      <Filter>Source Files\ShaderManager\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="windowInicialization.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shaders.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelManager.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractModel.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelFactory.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="plain.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="suzi_smooth.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="suzi_flat.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="tree.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="bushes.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="gift.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Quad.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlainTexture.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="skybox.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="assimpObjects.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="LightsManager.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="LightObject.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantShader.h">
+      <Filter>Header Files\ShaderManager\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CubemapTexture.h">
+      <Filter>Header Files\ShaderManager\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="PhongShader.h">
+      <Filter>Header Files\ShaderManager\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureShader.h">
+      <Filter>Header Files\ShaderManager\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractShader.h">
+      <Filter>Header Files\ShaderManager\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\ShaderManager\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderFactory.h">
+      <Filter>Header Files\ShaderManager\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>Header Files\ShaderManager\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Bezier.h">
+      <Filter>Header Files\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="LambertShader.h">
+      <Filter>Header Files\ShaderManager\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Header Files\ShaderManager\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="windowInicialization.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="constant.vertex">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="constant.fragment">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="lambert.vertex">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="lambert.fragment">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="phong.vertex">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="phong.fragment">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="blinn.vertex">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="blinn.fragment">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="texture.fragment">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="texture.vertex">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ClassDiagram4.cd" />
+    <None Include="sky.vertex">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="sky.fragment">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="objectColor.vertex">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="objectColor.fragment">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

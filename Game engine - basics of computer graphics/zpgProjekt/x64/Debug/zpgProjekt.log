@@ -1,0 +1,59 @@
+﻿  AbstractModel.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\Bezier.h(15,17): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\Shader.h(4,10): fatal error C1083: Cannot open include file: 'SOIL.h': No such file or directory
+  AbstractShader.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\AbstractShader.h(5,10): fatal error C1083: Cannot open include file: 'SOIL.h': No such file or directory
+  assimpObjects.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\Bezier.h(15,17): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\Shader.h(4,10): fatal error C1083: Cannot open include file: 'SOIL.h': No such file or directory
+  Bezier.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\Bezier.h(15,17): warning C4305: 'initializing': truncation from 'double' to 'float'
+  ConstantShader.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\AbstractShader.h(5,10): fatal error C1083: Cannot open include file: 'SOIL.h': No such file or directory
+  Controller.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\AbstractShader.h(5,10): fatal error C1083: Cannot open include file: 'SOIL.h': No such file or directory
+  CubemapTexture.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\AbstractShader.h(5,10): fatal error C1083: Cannot open include file: 'SOIL.h': No such file or directory
+  LambertShader.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\AbstractShader.h(5,10): fatal error C1083: Cannot open include file: 'SOIL.h': No such file or directory
+  Light.cpp
+  LightObject.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\Shader.h(4,10): fatal error C1083: Cannot open include file: 'SOIL.h': No such file or directory
+  LightsManager.cpp
+  PhongShader.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\AbstractShader.h(5,10): fatal error C1083: Cannot open include file: 'SOIL.h': No such file or directory
+  Quad.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\Bezier.h(15,17): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\Shader.h(4,10): fatal error C1083: Cannot open include file: 'SOIL.h': No such file or directory
+  ShaderFactory.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\Shader.h(4,10): fatal error C1083: Cannot open include file: 'SOIL.h': No such file or directory
+  Camera.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\AbstractShader.h(5,10): fatal error C1083: Cannot open include file: 'SOIL.h': No such file or directory
+  Scene.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\Shader.h(4,10): fatal error C1083: Cannot open include file: 'SOIL.h': No such file or directory
+  Model.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\Shader.h(4,10): fatal error C1083: Cannot open include file: 'SOIL.h': No such file or directory
+  ModelManager.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\Bezier.h(15,17): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\Shader.h(4,10): fatal error C1083: Cannot open include file: 'SOIL.h': No such file or directory
+  ModelFactory.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\Bezier.h(15,17): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\Shader.h(4,10): fatal error C1083: Cannot open include file: 'SOIL.h': No such file or directory
+  Shader.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\Shader.h(4,10): fatal error C1083: Cannot open include file: 'SOIL.h': No such file or directory
+  Generating Code...
+  Compiling...
+  ShaderManager.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\Shader.h(4,10): fatal error C1083: Cannot open include file: 'SOIL.h': No such file or directory
+  TextureManager.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\TextureManager.h(4,10): fatal error C1083: Cannot open include file: 'SOIL.h': No such file or directory
+  TextureShader.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\AbstractShader.h(5,10): fatal error C1083: Cannot open include file: 'SOIL.h': No such file or directory
+  Transform.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\Bezier.h(15,17): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Triangle.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\Bezier.h(15,17): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\Shader.h(4,10): fatal error C1083: Cannot open include file: 'SOIL.h': No such file or directory
+  zpgProjekt.cpp
+D:\VYSOKA\5semestr\ZPG\projekt - dodelani vice svetel\zpgProjekt\Shader.h(4,10): fatal error C1083: Cannot open include file: 'SOIL.h': No such file or directory
+  Generating Code...
